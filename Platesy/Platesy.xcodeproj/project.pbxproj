@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		541D8370087FB24DE4EBB5AA /* Pods_PlatesyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD521690572647777486F007 /* Pods_PlatesyTests.framework */; };
 		BCA2CE5F5FF6C757AF1F3437 /* Pods_PlatesyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F46FA8119D6318C75039D0E /* Pods_PlatesyUITests.framework */; };
+		E883DEC020A64093008D10BF /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E883DEBF20A64093008D10BF /* awsconfiguration.json */; };
 		E8A7E7B020A6342F008F2ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */; };
 		E8A7E7B220A6342F008F2ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7B120A6342F008F2ADC /* ViewController.swift */; };
 		E8A7E7B520A6342F008F2ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A7E7B320A6342F008F2ADC /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		AF40ED092A2BC7A516DA236A /* Pods-PlatesyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatesyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlatesyTests/Pods-PlatesyTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7C8C11B2927E5E585243A46 /* Pods-Platesy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Platesy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Platesy/Pods-Platesy.debug.xcconfig"; sourceTree = "<group>"; };
 		E006BACF842257CEE38EFEDB /* Pods-PlatesyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatesyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlatesyUITests/Pods-PlatesyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E883DEBF20A64093008D10BF /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		E8A7E7AC20A6342F008F2ADC /* Platesy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platesy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A7E7B120A6342F008F2ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				E8A7E7BB20A6342F008F2ADC /* LaunchScreen.storyboard */,
 				E8A7E7BE20A6342F008F2ADC /* Info.plist */,
 				E8A7E7B620A6342F008F2ADC /* Platesy.xcdatamodeld */,
+				E883DEBF20A64093008D10BF /* awsconfiguration.json */,
 			);
 			path = Platesy;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E883DEC020A64093008D10BF /* awsconfiguration.json in Resources */,
 				E8A7E7BD20A6342F008F2ADC /* LaunchScreen.storyboard in Resources */,
 				E8A7E7BA20A6342F008F2ADC /* Assets.xcassets in Resources */,
 				E8A7E7B520A6342F008F2ADC /* Main.storyboard in Resources */,
