@@ -1,0 +1,6 @@
+framework module Pods_PlatesyTests {
+  umbrella header "Pods-PlatesyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

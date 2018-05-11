@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541D8370087FB24DE4EBB5AA /* Pods_PlatesyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD521690572647777486F007 /* Pods_PlatesyTests.framework */; };
+		BCA2CE5F5FF6C757AF1F3437 /* Pods_PlatesyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F46FA8119D6318C75039D0E /* Pods_PlatesyUITests.framework */; };
+		E8A7E7B020A6342F008F2ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */; };
+		E8A7E7B220A6342F008F2ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7B120A6342F008F2ADC /* ViewController.swift */; };
+		E8A7E7B520A6342F008F2ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A7E7B320A6342F008F2ADC /* Main.storyboard */; };
+		E8A7E7B820A6342F008F2ADC /* Platesy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7B620A6342F008F2ADC /* Platesy.xcdatamodeld */; };
+		E8A7E7BA20A6342F008F2ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A7E7B920A6342F008F2ADC /* Assets.xcassets */; };
+		E8A7E7BD20A6342F008F2ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A7E7BB20A6342F008F2ADC /* LaunchScreen.storyboard */; };
+		E8A7E7C820A63430008F2ADC /* PlatesyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7C720A63430008F2ADC /* PlatesyTests.swift */; };
+		E8A7E7D320A63430008F2ADC /* PlatesyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7D220A63430008F2ADC /* PlatesyUITests.swift */; };
+		ECC20C878BD78A2FA3112067 /* Pods_Platesy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D49018A4F08FC7526706D92 /* Pods_Platesy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8A7E7C420A63430008F2ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8A7E7A420A6342F008F2ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A7E7AB20A6342F008F2ADC;
+			remoteInfo = Platesy;
+		};
+		E8A7E7CF20A63430008F2ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8A7E7A420A6342F008F2ADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A7E7AB20A6342F008F2ADC;
+			remoteInfo = Platesy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F1A64A8084573E776BC8DE /* Pods-PlatesyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatesyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlatesyUITests/Pods-PlatesyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F46FA8119D6318C75039D0E /* Pods_PlatesyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlatesyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DD19E6E4AC2B937DA40333 /* Pods-PlatesyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatesyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlatesyTests/Pods-PlatesyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D49018A4F08FC7526706D92 /* Pods_Platesy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Platesy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD521690572647777486F007 /* Pods_PlatesyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlatesyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF40ED092A2BC7A516DA236A /* Pods-PlatesyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatesyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlatesyTests/Pods-PlatesyTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7C8C11B2927E5E585243A46 /* Pods-Platesy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Platesy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Platesy/Pods-Platesy.debug.xcconfig"; sourceTree = "<group>"; };
+		E006BACF842257CEE38EFEDB /* Pods-PlatesyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatesyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlatesyUITests/Pods-PlatesyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8A7E7AC20A6342F008F2ADC /* Platesy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platesy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8A7E7B120A6342F008F2ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8A7E7B420A6342F008F2ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8A7E7B720A6342F008F2ADC /* Platesy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Platesy.xcdatamodel; sourceTree = "<group>"; };
+		E8A7E7B920A6342F008F2ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8A7E7BC20A6342F008F2ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8A7E7BE20A6342F008F2ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A7E7C320A63430008F2ADC /* PlatesyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatesyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A7E7C720A63430008F2ADC /* PlatesyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatesyTests.swift; sourceTree = "<group>"; };
+		E8A7E7C920A63430008F2ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A7E7CE20A63430008F2ADC /* PlatesyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatesyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A7E7D220A63430008F2ADC /* PlatesyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatesyUITests.swift; sourceTree = "<group>"; };
+		E8A7E7D420A63430008F2ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB337059871473C6E6670797 /* Pods-Platesy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Platesy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Platesy/Pods-Platesy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8A7E7A920A6342F008F2ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC20C878BD78A2FA3112067 /* Pods_Platesy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7E7C020A63430008F2ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541D8370087FB24DE4EBB5AA /* Pods_PlatesyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7E7CB20A63430008F2ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA2CE5F5FF6C757AF1F3437 /* Pods_PlatesyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A81E702D33CF87549D6BB7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7C8C11B2927E5E585243A46 /* Pods-Platesy.debug.xcconfig */,
+				FB337059871473C6E6670797 /* Pods-Platesy.release.xcconfig */,
+				76DD19E6E4AC2B937DA40333 /* Pods-PlatesyTests.debug.xcconfig */,
+				AF40ED092A2BC7A516DA236A /* Pods-PlatesyTests.release.xcconfig */,
+				E006BACF842257CEE38EFEDB /* Pods-PlatesyUITests.debug.xcconfig */,
+				18F1A64A8084573E776BC8DE /* Pods-PlatesyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8A7E7A320A6342F008F2ADC = {
+			isa = PBXGroup;
+			children = (
+				E8A7E7AE20A6342F008F2ADC /* Platesy */,
+				E8A7E7C620A63430008F2ADC /* PlatesyTests */,
+				E8A7E7D120A63430008F2ADC /* PlatesyUITests */,
+				E8A7E7AD20A6342F008F2ADC /* Products */,
+				3A81E702D33CF87549D6BB7B /* Pods */,
+				FAC8D097CE7F25C69FC3BC23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8A7E7AD20A6342F008F2ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7E7AC20A6342F008F2ADC /* Platesy.app */,
+				E8A7E7C320A63430008F2ADC /* PlatesyTests.xctest */,
+				E8A7E7CE20A63430008F2ADC /* PlatesyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8A7E7AE20A6342F008F2ADC /* Platesy */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */,
+				E8A7E7B120A6342F008F2ADC /* ViewController.swift */,
+				E8A7E7B320A6342F008F2ADC /* Main.storyboard */,
+				E8A7E7B920A6342F008F2ADC /* Assets.xcassets */,
+				E8A7E7BB20A6342F008F2ADC /* LaunchScreen.storyboard */,
+				E8A7E7BE20A6342F008F2ADC /* Info.plist */,
+				E8A7E7B620A6342F008F2ADC /* Platesy.xcdatamodeld */,
+			);
+			path = Platesy;
+			sourceTree = "<group>";
+		};
+		E8A7E7C620A63430008F2ADC /* PlatesyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7E7C720A63430008F2ADC /* PlatesyTests.swift */,
+				E8A7E7C920A63430008F2ADC /* Info.plist */,
+			);
+			path = PlatesyTests;
+			sourceTree = "<group>";
+		};
+		E8A7E7D120A63430008F2ADC /* PlatesyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7E7D220A63430008F2ADC /* PlatesyUITests.swift */,
+				E8A7E7D420A63430008F2ADC /* Info.plist */,
+			);
+			path = PlatesyUITests;
+			sourceTree = "<group>";
+		};
+		FAC8D097CE7F25C69FC3BC23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D49018A4F08FC7526706D92 /* Pods_Platesy.framework */,
+				AD521690572647777486F007 /* Pods_PlatesyTests.framework */,
+				3F46FA8119D6318C75039D0E /* Pods_PlatesyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8A7E7AB20A6342F008F2ADC /* Platesy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A7E7D720A63430008F2ADC /* Build configuration list for PBXNativeTarget "Platesy" */;
+			buildPhases = (
+				194C9BE5ECF46115A173931E /* [CP] Check Pods Manifest.lock */,
+				E8A7E7A820A6342F008F2ADC /* Sources */,
+				E8A7E7A920A6342F008F2ADC /* Frameworks */,
+				E8A7E7AA20A6342F008F2ADC /* Resources */,
+				E7113801516982BACC4941D0 /* [CP] Embed Pods Frameworks */,
+				213A796B8732590614637CC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Platesy;
+			productName = Platesy;
+			productReference = E8A7E7AC20A6342F008F2ADC /* Platesy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8A7E7C220A63430008F2ADC /* PlatesyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A7E7DA20A63430008F2ADC /* Build configuration list for PBXNativeTarget "PlatesyTests" */;
+			buildPhases = (
+				E685ADDCA17F93615CE3AB18 /* [CP] Check Pods Manifest.lock */,
+				E8A7E7BF20A63430008F2ADC /* Sources */,
+				E8A7E7C020A63430008F2ADC /* Frameworks */,
+				E8A7E7C120A63430008F2ADC /* Resources */,
+				576AA1379DE99677B98192E3 /* [CP] Embed Pods Frameworks */,
+				6FF1882CB14832069D4B8AD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8A7E7C520A63430008F2ADC /* PBXTargetDependency */,
+			);
+			name = PlatesyTests;
+			productName = PlatesyTests;
+			productReference = E8A7E7C320A63430008F2ADC /* PlatesyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8A7E7CD20A63430008F2ADC /* PlatesyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A7E7DD20A63430008F2ADC /* Build configuration list for PBXNativeTarget "PlatesyUITests" */;
+			buildPhases = (
+				0C890316A9DCCC28578CE081 /* [CP] Check Pods Manifest.lock */,
+				E8A7E7CA20A63430008F2ADC /* Sources */,
+				E8A7E7CB20A63430008F2ADC /* Frameworks */,
+				E8A7E7CC20A63430008F2ADC /* Resources */,
+				04A3D7E0942ACFF0F770D679 /* [CP] Embed Pods Frameworks */,
+				4A3C286C6006E153B5F7DC96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8A7E7D020A63430008F2ADC /* PBXTargetDependency */,
+			);
+			name = PlatesyUITests;
+			productName = PlatesyUITests;
+			productReference = E8A7E7CE20A63430008F2ADC /* PlatesyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8A7E7A420A6342F008F2ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sogeti USA";
+				TargetAttributes = {
+					E8A7E7AB20A6342F008F2ADC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E8A7E7C220A63430008F2ADC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8A7E7AB20A6342F008F2ADC;
+					};
+					E8A7E7CD20A63430008F2ADC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8A7E7AB20A6342F008F2ADC;
+					};
+				};
+			};
+			buildConfigurationList = E8A7E7A720A6342F008F2ADC /* Build configuration list for PBXProject "Platesy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8A7E7A320A6342F008F2ADC;
+			productRefGroup = E8A7E7AD20A6342F008F2ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8A7E7AB20A6342F008F2ADC /* Platesy */,
+				E8A7E7C220A63430008F2ADC /* PlatesyTests */,
+				E8A7E7CD20A63430008F2ADC /* PlatesyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8A7E7AA20A6342F008F2ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7E7BD20A6342F008F2ADC /* LaunchScreen.storyboard in Resources */,
+				E8A7E7BA20A6342F008F2ADC /* Assets.xcassets in Resources */,
+				E8A7E7B520A6342F008F2ADC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7E7C120A63430008F2ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7E7CC20A63430008F2ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A3D7E0942ACFF0F770D679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatesyUITests/Pods-PlatesyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C890316A9DCCC28578CE081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlatesyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		194C9BE5ECF46115A173931E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Platesy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		213A796B8732590614637CC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Platesy/Pods-Platesy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A3C286C6006E153B5F7DC96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatesyUITests/Pods-PlatesyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576AA1379DE99677B98192E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatesyTests/Pods-PlatesyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF1882CB14832069D4B8AD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatesyTests/Pods-PlatesyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E685ADDCA17F93615CE3AB18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlatesyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7113801516982BACC4941D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Platesy/Pods-Platesy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAutoScaling/AWSAutoScaling.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCloudWatch/AWSCloudWatch.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoAuth/AWSCognitoAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSEC2/AWSEC2.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSElasticLoadBalancing/AWSElasticLoadBalancing.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSGoogleSignIn/AWSGoogleSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSIoT/AWSIoT.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSKMS/AWSKMS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSKinesis/AWSKinesis.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLambda/AWSLambda.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLex/AWSLex.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSLogs/AWSLogs.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMachineLearning/AWSMachineLearning.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileAnalytics/AWSMobileAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSRekognition/AWSRekognition.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSES/AWSSES.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSQS/AWSSQS.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSimpleDB/AWSSimpleDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAutoScaling.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCloudWatch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSEC2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSElasticLoadBalancing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSGoogleSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSIoT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKMS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSKinesis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLambda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSLogs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMachineLearning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSRekognition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSES.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSQS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSimpleDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Platesy/Pods-Platesy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8A7E7A820A6342F008F2ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7E7B820A6342F008F2ADC /* Platesy.xcdatamodeld in Sources */,
+				E8A7E7B220A6342F008F2ADC /* ViewController.swift in Sources */,
+				E8A7E7B020A6342F008F2ADC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7E7BF20A63430008F2ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7E7C820A63430008F2ADC /* PlatesyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7E7CA20A63430008F2ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7E7D320A63430008F2ADC /* PlatesyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8A7E7C520A63430008F2ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A7E7AB20A6342F008F2ADC /* Platesy */;
+			targetProxy = E8A7E7C420A63430008F2ADC /* PBXContainerItemProxy */;
+		};
+		E8A7E7D020A63430008F2ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A7E7AB20A6342F008F2ADC /* Platesy */;
+			targetProxy = E8A7E7CF20A63430008F2ADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8A7E7B320A6342F008F2ADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A7E7B420A6342F008F2ADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8A7E7BB20A6342F008F2ADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A7E7BC20A6342F008F2ADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8A7E7D520A63430008F2ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8A7E7D620A63430008F2ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8A7E7D820A63430008F2ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C8C11B2927E5E585243A46 /* Pods-Platesy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHN72CG3HS;
+				INFOPLIST_FILE = Platesy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogetiusa.Platesy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8A7E7D920A63430008F2ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB337059871473C6E6670797 /* Pods-Platesy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHN72CG3HS;
+				INFOPLIST_FILE = Platesy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogetiusa.Platesy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8A7E7DB20A63430008F2ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DD19E6E4AC2B937DA40333 /* Pods-PlatesyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatesyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogetiusa.PlatesyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platesy.app/Platesy";
+			};
+			name = Debug;
+		};
+		E8A7E7DC20A63430008F2ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF40ED092A2BC7A516DA236A /* Pods-PlatesyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatesyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogetiusa.PlatesyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platesy.app/Platesy";
+			};
+			name = Release;
+		};
+		E8A7E7DE20A63430008F2ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E006BACF842257CEE38EFEDB /* Pods-PlatesyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatesyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogetiusa.PlatesyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Platesy;
+			};
+			name = Debug;
+		};
+		E8A7E7DF20A63430008F2ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F1A64A8084573E776BC8DE /* Pods-PlatesyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlatesyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogetiusa.PlatesyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Platesy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8A7E7A720A6342F008F2ADC /* Build configuration list for PBXProject "Platesy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7E7D520A63430008F2ADC /* Debug */,
+				E8A7E7D620A63430008F2ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A7E7D720A63430008F2ADC /* Build configuration list for PBXNativeTarget "Platesy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7E7D820A63430008F2ADC /* Debug */,
+				E8A7E7D920A63430008F2ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A7E7DA20A63430008F2ADC /* Build configuration list for PBXNativeTarget "PlatesyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7E7DB20A63430008F2ADC /* Debug */,
+				E8A7E7DC20A63430008F2ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A7E7DD20A63430008F2ADC /* Build configuration list for PBXNativeTarget "PlatesyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7E7DE20A63430008F2ADC /* Debug */,
+				E8A7E7DF20A63430008F2ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8A7E7B620A6342F008F2ADC /* Platesy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8A7E7B720A6342F008F2ADC /* Platesy.xcdatamodel */,
+			);
+			currentVersion = E8A7E7B720A6342F008F2ADC /* Platesy.xcdatamodel */;
+			path = Platesy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8A7E7A420A6342F008F2ADC /* Project object */;
+}
