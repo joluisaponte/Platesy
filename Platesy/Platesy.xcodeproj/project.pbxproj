@@ -11,6 +11,7 @@
 		BCA2CE5F5FF6C757AF1F3437 /* Pods_PlatesyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F46FA8119D6318C75039D0E /* Pods_PlatesyUITests.framework */; };
 		E883DEC020A64093008D10BF /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E883DEBF20A64093008D10BF /* awsconfiguration.json */; };
 		E883DEC220A6442A008D10BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E883DEC120A6442A008D10BF /* README.md */; };
+		E883DEC420A64569008D10BF /* AWSCredentialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883DEC320A64569008D10BF /* AWSCredentialManager.swift */; };
 		E8A7E7B020A6342F008F2ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */; };
 		E8A7E7B220A6342F008F2ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E7B120A6342F008F2ADC /* ViewController.swift */; };
 		E8A7E7B520A6342F008F2ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A7E7B320A6342F008F2ADC /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		E006BACF842257CEE38EFEDB /* Pods-PlatesyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatesyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlatesyUITests/Pods-PlatesyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E883DEBF20A64093008D10BF /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		E883DEC120A6442A008D10BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E883DEC320A64569008D10BF /* AWSCredentialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSCredentialManager.swift; sourceTree = "<group>"; };
 		E8A7E7AC20A6342F008F2ADC /* Platesy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Platesy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A7E7B120A6342F008F2ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				E8A7E7AF20A6342F008F2ADC /* AppDelegate.swift */,
 				E8A7E7B120A6342F008F2ADC /* ViewController.swift */,
+				E883DEC320A64569008D10BF /* AWSCredentialManager.swift */,
 				E8A7E7B320A6342F008F2ADC /* Main.storyboard */,
 				E8A7E7B920A6342F008F2ADC /* Assets.xcassets */,
 				E8A7E7BB20A6342F008F2ADC /* LaunchScreen.storyboard */,
@@ -539,6 +542,7 @@
 			files = (
 				E8A7E7B820A6342F008F2ADC /* Platesy.xcdatamodeld in Sources */,
 				E8A7E7B220A6342F008F2ADC /* ViewController.swift in Sources */,
+				E883DEC420A64569008D10BF /* AWSCredentialManager.swift in Sources */,
 				E8A7E7B020A6342F008F2ADC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
